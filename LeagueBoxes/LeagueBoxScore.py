@@ -10,7 +10,7 @@ from gi.repository import Gtk
 import sys
 import os
 
-sys.path.append(os.getcwd() + "/assets/")
+sys.path.append(os.path.dirname(os.path.realpath(__file__)) + "/../assets/")
 import StringDefs
 
 
