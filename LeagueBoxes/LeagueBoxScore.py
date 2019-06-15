@@ -23,3 +23,6 @@ class LeagueBoxScore(Gtk.Box):
     def league_label(self):
         return self._league_label
     
+    def load_scores(self, scores):
+        # appends ScoreBox Objects here
+        pass
